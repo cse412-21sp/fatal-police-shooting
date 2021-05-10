@@ -2,7 +2,7 @@
 
 ## Team Members
 
-Place your team member names here.
+Tim Li, Chris Chen, Yuchen Sun
 
 ### Contribution Statements
 
