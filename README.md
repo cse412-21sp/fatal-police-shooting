@@ -10,7 +10,8 @@ Add individual contribution statements here.
 
 ## Project Proposal Abstract
 
-This is the space for you to add a description for your project.
+As the topic of police brutality continues to gain heat on social media, more and more people started to realize that the racial discrepancy still exists in our society and movements like Black Lives Matter garner social presence. We also seek to gain some insight about this social phenomena, hence we will use this project to examine the latest trends in US fatal police shooting. Are there any patterns in police shootings such as location hotspots, time series, etc. We use two datasets from the past six years, one dataset will be the police shooting dataset from kaggle, the other one will be the demographic distribution in the United States from the world bank. This project aims to deepen the discussion in the currently popular topic of racial discrimination and police brutality. This is the first analysis of its type to drill down on city-level datasets. We are used to national level reports on police brutality that often ignores the specific context of local communities. This project hopes to explain why some cities have higher tendencies of fatal shootings than others.
+
 
 ## Getting Started
 
