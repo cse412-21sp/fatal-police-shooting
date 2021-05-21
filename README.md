@@ -1,7 +1,7 @@
 # CSE412 Final Project Template (Idyll)
 
 ## IMPORTANT NOTE:
-<span style="color:blue"> **Planning of the final website is in file `rought draft.pdf` under directory docs.** </span>
+**Planning of the final website is in file `rought draft.pdf` under directory docs.**
 
 ## Team Members
 
