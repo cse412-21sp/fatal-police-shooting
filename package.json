@@ -4,7 +4,7 @@
   "license": "MIT",
   "idyll": {
     "context": "./context.js",
-    "theme": "default",
+    "theme": "tufte",
     "layout": "centered",
     "css": "styles.css",
     "authorView": false,
