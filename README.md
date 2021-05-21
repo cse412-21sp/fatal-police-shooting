@@ -1,5 +1,8 @@
 # CSE412 Final Project Template (Idyll)
 
+## IMPORTANT NOTE:
+**Planning of the final website is in file `rought draft.pdf` under directory docs.**
+
 ## Team Members
 
 Tim Li, Chris Chen, Yuchen Sun
