@@ -14,6 +14,30 @@
 
 [Tweet id:"1394686426516701185"/]
 
+[Scroller]
+
+  [Graphic]
+    [img src: `"static/images/2020_death_count.jpg"`/]
+  [/Graphic]
+
+  [Step]
+    [Tweet id:"538694886426701824"/]
+  [/Step]
+
+  [Step]
+    It also uses custom CSS to style the `Graphic` (which is a custom D3 component) so that it appears as a fixed visualization next to the scrolling text.
+  [/Step]
+
+  [Step]
+    [Tweet id:"1394686426516701185"/]
+  [/Step]
+
+  [Step]
+    To keep track of where we are in the `Scroller`, we first defined a dynamic Idyll variable named `myLocation` using the following code: `[var name:"myLocation" value:0 /]`
+  [/Step]
+
+[/Scroller]
+
 ## -
 
 Three policies officers fired at Andrew Brown Jr. last month. Officers claimed Brown posed a threat to them as he "recklessly" drove his car at them while fleeing arrest. 
