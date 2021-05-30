@@ -12,8 +12,6 @@
    /]
 
 
-[Tweet id:"1394686426516701185"/]
-
 [Scroller className:"hasBackground"]
 
   [Graphic]
@@ -25,15 +23,15 @@
   [/Step]
 
   [Step]
-    It also uses custom CSS to style the `Graphic` (which is a custom D3 component) so that it appears as a fixed visualization next to the scrolling text.
-  [/Step]
-
-  [Step]
     [Tweet id:"1394686426516701185"/]
   [/Step]
 
   [Step]
-    To keep track of where we are in the `Scroller`, we first defined a dynamic Idyll variable named `myLocation` using the following code: `[var name:"myLocation" value:0 /]`
+    [Tweet id:"542736894627295232"/]
+  [/Step]
+
+  [Step]
+    [Tweet id:"795081630788501504"/]
   [/Step]
 
 [/Scroller]
