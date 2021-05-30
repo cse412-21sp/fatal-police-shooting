@@ -14,7 +14,7 @@
 
 [Tweet id:"1394686426516701185"/]
 
-[Scroller]
+[Scroller className:"hasBackground"]
 
   [Graphic]
     [img src: `"static/images/2020_death_count.jpg"`/]
