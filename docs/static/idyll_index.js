@@ -16,8 +16,8 @@ var CustomHeader = function CustomHeader() {
     "header",
     null,
     _react2.default.createElement(
-      "h1",
-      { "class": "outline" },
+      "h0",
+      null,
       "967 "
     ),
     _react2.default.createElement(

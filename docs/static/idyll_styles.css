@@ -720,13 +720,17 @@ header h1 {
 }
 
 header {
-  padding: 70%;
-  background: #222;
-  text-align: center;
-  
+  padding-top: 50%;
+  padding-bottom: 50%;
+  background: #222;  
 }
 
 .outline {
   color: #E26C31;
-  
+}
+
+h0 {
+  color: #E26C31;
+  font-size: 340px;
+  font-weight: 800;
 }
