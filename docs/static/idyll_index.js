@@ -13,21 +13,17 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var CustomHeader = function CustomHeader() {
   return _react2.default.createElement(
-    "div",
-    { "class": "overlay" },
+    "header",
+    null,
     _react2.default.createElement(
-      "header",
+      "h1",
+      { "class": "outline" },
+      "967 "
+    ),
+    _react2.default.createElement(
+      "h1",
       null,
-      _react2.default.createElement(
-        "h1",
-        { "class": "outline" },
-        "967 "
-      ),
-      _react2.default.createElement(
-        "h1",
-        null,
-        "people have been fatally shot by police in 2020"
-      )
+      "people fatally shot by police in 2020"
     )
   );
 };
