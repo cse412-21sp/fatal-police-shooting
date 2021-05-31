@@ -2,26 +2,21 @@
 
 [Header
   fullWidth:true
-  title:"Fatal Police Shooting"
-  subtitle:"Data and Trends"
+  title:"Fatal Police Shooting: is it on the Rise?"
   author:"Tim Li, Chris Chen, and Yuchen Sun"
   authorLink: "https://github.com/cse412-21sp/fatal-police-shooting"
   date:"Apr 6, 2021"
   background:"none"
   color:"#444444"
    /]
-
-
-[Scroller className:"hasBackground"]
-
+   
+[Scroller]
   [Graphic]
-    [img src: `"static/images/2020_death_count.jpg"`/]
+      [CustomHeader /]
   [/Graphic]
-
   [Step]
     [Tweet id:"538694886426701824"/]
   [/Step]
-
   [Step]
     [Tweet id:"1394686426516701185"/]
   [/Step]
