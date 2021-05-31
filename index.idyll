@@ -65,7 +65,10 @@ To emphasize on the distribution of fatal police shootings counts across the dif
 Combining the Map and Treemap visualization shown above, it seems that the state of California has the highest fatal police shootings across the nation. However, it is also important to notice that California has the largest population in the nation. Thus, it would be unwise to only look at the number itself without taking considerations of the population at each state. Therefore, we normalized previous map by each state's population.
 
 ### Location Normalized:
-[img src: `"static/images/normalized_map.jpg"`/]
+
+[FullWidth]
+[TableauEmbed link:"https://public.tableau.com/views/412_1/1?:language=en-US&:display_count=n&:origin=viz_share_link"width:"1700" height:"800"/]
+[/FullWidth]
 
 After normalized map according to each state's population, a deeper color here meant a higher fatal police shooting per million people. From this normalized map, we notice that Virginia has the highest fatal police shooting per million people followed by Alabama, New York. This is not surprising considering the economy in those states. While some might believe New York is a outlier due to the famous New York City, it is also important to realize that the majority of wealth is concentrated in midtown New York City and economy on many other parts in New York state are not as wealthy as Wall Street.
 
@@ -86,6 +89,11 @@ At our first glance of the data, it seems like White non-Hispanic make up the mo
 [img src: `"static/images/race_normalized.jpg"`/]
 
 After normaliztion, it seems like Native and African Americans are having the worst treatement of law enforcemnet treatement with a higher higher fatal police shooting per million people than white non-Hispanic Americans. This confirms our concern that law enforcemnet body has unfairly discriminate against minority groups that resulted in a higher police shooting per capita. Our perception here is that the systematic racism is not only limited in police enforcemnet. The overall higher rate of fatal police shootings in minority groups are result of systematic racism across many sectors. For example, minority groups are not well represented in local governments which resulted in less favorable policy. Discrimination at work prevent them to provide a better life to their family which resulted in a higher unemployment rate and thus higher crime rate. The higher the crime rate, the higher fatal police shootings and that would only get worse as time goes on.
+
+## Poverty
+
+[TableauEmbed link:"https://public.tableau.com/views/412_1/2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"600" height:"600"/]
+
 
 ### Insights and Discussions
 
