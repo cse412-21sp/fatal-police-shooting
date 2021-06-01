@@ -59,16 +59,19 @@ In this article, we perform a set of visualizations and data analysis using Kagg
 
  #### Google Search Trend of Keyward: "Fatal Police Shooting"
 
+[img src: `"static/images/Animation.gif"`/]
+
 [ObservableEmbed link:"https://observablehq.com/embed/4e07194327ad2a6b?cells=plot"width:"100%" height:"900"/]
 
 In the past five years, fatal police shootings news never ceased to appear in the public sight. In fact, dozens of fatal shootings happen each month, but most of them don’t appear on social media for various reasons. News like this always attract public attention immediately: in at least a week following the incidents, google search counts skyrockets; people go on to protests and parades, attracting more media attention and naturally lead to more media exposure, increasing a new round of surge in google search counts. But this increase in public awareness and attention does not seem to change anything—the shooting continues and overtime there’s no trend of any kind. People’s perception that there is an increase in fatal police shooting rate is merely a result of the amount of news articles about it circulating the internet.
 
 
-### **Alaska Might Be the Most Dangerous Place to Live?**
+### **Wyoming Might Be the Most Dangerous Place to Live?**
 
-[TableauEmbed link:"https://public.tableau.com/views/412_1/1?:language=en-US&:display_count=n&:origin=viz_share_link"width:"1700" height:"800"/]
+[TableauEmbed link:"https://public.tableau.com/views/412_1/1?:language=en-US&:display_count=n&:origin=viz_share_link"width:"100%" height:"500"/]
 
-Police shootings have taken place all across the state and have occurred more frequently in States where populations are less concentrated. Among the States, New Mexico has the highest fatal police shooting rate, about 9.54 people are killed by police shooting per million, followed by Oklahoma (41 cases per million), Arizona (34 cases per million), Colorado (33 cases per million), and Nevada (31 cases per million). While these numbers are huge comparing to the average fatal police shooting rate (4.03 cases per million) and median fatal police shooting rate (2.77 cases per million), the reasons remains unknown given limited information. Though it can be argued that the high fatal police shooting rate in these states is due to poor economy, their closeness to the boarder, and maybe less concentrated population, these claims are unfounded. The reason lies behind remains murky.
+Police shootings have taken place all across the state and have occurred more frequently in States where populations are smaller less concentrated. Among the States, Wyoming has the highest fatal police shooting rate, about 10.58 people are killed by police shooting per million, followed by New Mexico (9.54 cases per million), Oklahoma (8.09 cases per million), Nevada (6.05 cases per million), and Louisiana (5.81 cases per million). While these numbers are huge comparing to the average fatal police shooting rate (3.27 cases per million) and median fatal police shooting rate (2.82 cases per million), the reasons remains unknown given limited information. Though it can be argued that the high fatal police shooting rate in these states is due to poor economy, their closeness to the boarder, and maybe less concentrated population, these claims cannot be proven. The reason lies behind remains murky using our current datasets.
+
 
 ### **Racial Disparity in Fatal Police Shooting Keeps Increasing**
 
@@ -78,13 +81,11 @@ There’s a decrease in fatal police shooting cases—-for white people. The num
 
 ### **Most of the Victims Are Adult Men**
 
-[img src: `"static/images/age.jpg"`/]
+[TableauEmbed link:"https://public.tableau.com/views/412_1/5?:language=en-US&:display_count=n&:origin=viz_share_link"width:"800" height:"300"/]
 
 People of all ages are being shot dead by police. The victims can be as young as 6 years old and can be as old as 86 years old. On average, around 70% of the victims are people that are aged 15-45. At the same time, over 95% of the victims are male and only less than 5% are female.
 
-## Poverty
-
-[TableauEmbed link:"https://public.tableau.com/views/412_1/2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"600" height:"600"/]
+[TableauEmbed link:"https://public.tableau.com/views/412_1/4?:language=en-US&:display_count=n&:origin=viz_share_link"width:"800" height:"500"/]
 
 
 ### **Defunding the Police Might Not Be the Desired Solution**

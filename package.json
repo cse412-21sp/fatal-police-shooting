@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "d3": "^6.6.2",
+    "d3-geomap": "^3.3.0",
     "d3-scale-chromatic": "^2.0.0",
     "d3-selection": "^2.0.0",
     "d3-transition": "^2.0.0",
