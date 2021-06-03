@@ -75,7 +75,14 @@ Police shootings have taken place all across the state and have occurred more fr
 
 ### **Racial Disparity in Fatal Police Shooting Keeps Increasing**
 
-[img src: `"static/images/race_normalized.jpg"`/]
+Non-Normalized
+
+[fullWidth]
+[TableauEmbed link:"https://public.tableau.com/views/412_1/3?:language=en-US&:display_count=n&:origin=viz_share_link"width:"1500" height:"500"/]
+[/fullWidth]
+
+Normalized
+[TableauEmbed link:"https://public.tableau.com/views/412_1/6?:language=en-US&:display_count=n&:origin=viz_share_link"width:"600" height:"600"/]
 
 There’s a decrease in fatal police shooting cases—-for white people. The number dropped from 497 cases in 2015 to 404 cases in 2019. However, there’s almost no change in fatal police shooting cases for Hispanic (change from 172 cases in 2015 to 163 cases in 2019), Black people (change from 258 cases in 2015 to 250 cases in 2019), and Asians (increase from 14 cases in 2015 to 19 cases in 2019). The gap keeps increasing. Normalized by total populations of these people in United States, we can see that Natives and Black people are killed at a disproportionately high rate by police shooting. In 2017, Natives are killed at an astounding 37 people per million, closely followed by Black people (33 people per million), followed by Hispanic (15 per million), White (13 per million), and Asians (5 per million).
 
@@ -87,6 +94,11 @@ People of all ages are being shot dead by police. The victims can be as young as
 
 [TableauEmbed link:"https://public.tableau.com/views/412_1/4?:language=en-US&:display_count=n&:origin=viz_share_link"width:"800" height:"500"/]
 
+### **Combined Factor**
+
+[fullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/fatal-police-shooting-choropleth?cells=viewof+form%2CmegaSvg "width:"1700" height:"600"/]
+[/fullWidth]
 
 ### **Defunding the Police Might Not Be the Desired Solution**
 
