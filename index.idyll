@@ -10,6 +10,11 @@
   color:"#444444"
    /]
 
+[div style:`{width: "100%", position: "center"}`] 
+[img src: `"static/images/Animation.gif"`/]
+[/div]
+[span style:`{color:'#aaa', fontStyle:'italic'}`]The above animation is constructed using google search data on keyword "Fatal Police Shooting".[/span]
+
 [Scroller]
   [Graphic]
       [CustomHeader /]
@@ -53,13 +58,14 @@
 
 In this article, we perform a set of visualizations and data analysis using Kaggle’s fatal police shooting data from the past 6 years (2015 – 2020) in United States to inform the audience about how fatal police shootings actually are evolving, give them an unbiased overview of the racial and age disparities in fatal police shooting, and encourage people to reflect more on what they can do to make real changes to this social tragedy.
 
+### Play with the Data!
+
+[fullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/fatal-police-shooting-choropleth?cells=viewof+form%2CmegaSvg "width:"1700" height:"600"/]
+[/fullWidth]
 
 
 ### **Rate of Shooting Remains Steady, Unaffected by Public Awareness and Attention**
-
- #### Google Search Trend of Keyward: "Fatal Police Shooting"
-
-[img src: `"static/images/Animation.gif"`/]
 
 [ObservableEmbed link:"https://observablehq.com/embed/4e07194327ad2a6b?cells=plot"width:"100%" height:"900"/]
 
@@ -96,9 +102,6 @@ People of all ages are being shot dead by police. The victims can be as young as
 
 ### **Combined Factor**
 
-[fullWidth]
-[ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/fatal-police-shooting-choropleth?cells=viewof+form%2CmegaSvg "width:"1700" height:"600"/]
-[/fullWidth]
 
 ### **Defunding the Police Might Not Be the Desired Solution**
 
