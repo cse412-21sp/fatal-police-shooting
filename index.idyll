@@ -74,7 +74,7 @@ In the past five years, fatal police shootings news never ceased to appear in th
 
 ### **Wyoming Might Be the Most Dangerous Place to Live?**
 
-[TableauEmbed link:"https://public.tableau.com/views/412_1/1?:language=en-US&:display_count=n&:origin=viz_share_link"width:"100%" height:"500"/]
+[ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/state-choropleth?cells=chart"width:"100%" height:"500"/]
 
 Police shootings have taken place all across the state and have occurred more frequently in States where populations are smaller less concentrated. Among the States, Wyoming has the highest fatal police shooting rate, about 10.58 people are killed by police shooting per million, followed by New Mexico (9.54 cases per million), Oklahoma (8.09 cases per million), Nevada (6.05 cases per million), and Louisiana (5.81 cases per million). While these numbers are huge comparing to the average fatal police shooting rate (3.27 cases per million) and median fatal police shooting rate (2.82 cases per million), the reasons remains unknown given limited information. Though it can be argued that the high fatal police shooting rate in these states is due to poor economy, their closeness to the boarder, and maybe less concentrated population, these claims cannot be proven. The reason lies behind remains murky using our current datasets.
 
