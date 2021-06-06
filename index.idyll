@@ -10,10 +10,25 @@
   color:"#444444"
    /]
 
-[div style:`{width: "100%", position: "center"}`] 
+[div style:`{width: "100%", margin: "0", padding: "0", top: "0", left: "0"}`] 
 [img src: `"static/images/Animation.gif"`/]
 [/div]
-[span style:`{color:'#aaa', fontStyle:'italic'}`]The above animation is constructed using google search data on keyword "Fatal Police Shooting".[/span]
+[span style:`{color:'#aaa', fontStyle:'italic'}`]Constructed using google search popularity data on keyword "Fatal Police Shooting". Y-Axis denotes google's popularity score of the keyword. [a href:'https://raw.githubusercontent.com/cse412-21sp/fatal-police-shooting/main/data/google_trends.csv'] (dataset source)[/a][/span]
+
+[div class: "h3"] 
+### What happened in July of 2016?
+[/div]
+## - 
+
+Perhaps you have protested for Alton Sterling's death or mourned the loss of Philando Castile. July of 2016 is an important month when citizens from all over the United States engaged in a national discourse on the issue of fatal police shooting. Platforms like Twitter are widely used to rally people against the idea that police use excessive force against racial minorities.
+
+## - 
+
+[div class: "h3"] 
+### How big is the problem?
+[/div]
+
+## - 
 
 [Scroller]
   [Graphic]
@@ -38,6 +53,12 @@
 
 ## -
 
+[div class: "h3"] 
+### The stories below cover only a fraction of all the victims of fatal police shootings in the past 5 years.
+[/div]
+
+## -
+
 “Michael Brown, 18, was killed by a police officer, in Ferguson, Missouri, who was responding to reports that Brown had stolen a box of cigars.”
 
 “Tamir Rice, a boy of 12, was shot dead in Cleveland, Ohio by a police officer after reports of a male who was "probably a juvenile" pointing a gun that was ‘probably fake’ at passerby.”
@@ -56,60 +77,107 @@
 
 “Ma'Khia Bryant, a 16-year-old African-American girl, was fatally shot by police officer Nicholas Reardon in southeast Columbus, Ohio.”
 
-In this article, we perform a set of visualizations and data analysis using Kaggle’s fatal police shooting data from the past 6 years (2015 – 2020) in United States to inform the audience about how fatal police shootings actually are evolving, give them an unbiased overview of the racial and age disparities in fatal police shooting, and encourage people to reflect more on what they can do to make real changes to this social tragedy.
+Sadly, stories like these happen more than twice a day on average for the past year, and that is according to the source of our dataset. In reality, the scale of fatal police shooting is bigger than the data can express in this report.
 
-### Play with the Data!
+## -
+
+[div class: "h3"] 
+### Using data to better understand fatal police shooting!
+[/div]
+
+## -
+
+Stories are anecdotal evidences that are easily relatable and digestable. But in this article, we take a step back and use data to exmaine the bigger picture of fatal police shooting. This is a "visualized" article. Please see the demo video at the end of the the webpage to learn how to most effectively use our visualizations.
+
+But first things first, good visualizations are built from quality data. Our dataset comes from Kaggle, a data science community with more than 90,000 public datasets. The dataset recorded every fatal police shooting in the United States between 2015-2019. Each victim's name, date of shooting, age, gender, race, state, and 7 other variables are recorded. These shootings are tracked by culling local news reports, law enforcement websites, social media, and by monitoring independent databases such as Killed by Police and Fatal Encounters. Thus, overall we would say that the data integrity is very high and very usable for our task.
+
+We present the shootings from 2015-2019 in this interactive choropleth map (2020 data removed due to missing data). You can click on each state to dive deeper into the distribution of the shootings in each cities. The stacked barchart visualizes the count of victims belonging to different races. You can also play around with the dropdown manuals to filter gender and manner of death. Feel free to explore the dataset on your own to better understand the distribution of shootings throughout the 50 states.
 
 [fullWidth]
 [ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/fatal-police-shooting-choropleth?cells=viewof+form%2CmegaSvg "width:"1700" height:"600"/]
 [/fullWidth]
 
+## -
 
-### **Rate of Shooting Remains Steady, Unaffected by Public Awareness and Attention**
+[div class: "h3"] 
+### Does public awareness influence fatal police shootings?
+[/div]
+
+## -
 
 [ObservableEmbed link:"https://observablehq.com/embed/4e07194327ad2a6b?cells=plot"width:"100%" height:"900"/]
 
-In the past five years, fatal police shootings news never ceased to appear in the public sight. In fact, dozens of fatal shootings happen each month, but most of them don’t appear on social media for various reasons. News like this always attract public attention immediately: in at least a week following the incidents, google search counts skyrockets; people go on to protests and parades, attracting more media attention and naturally lead to more media exposure, increasing a new round of surge in google search counts. But this increase in public awareness and attention does not seem to change anything—the shooting continues and overtime there’s no trend of any kind. People’s perception that there is an increase in fatal police shooting rate is merely a result of the amount of news articles about it circulating the internet.
+We use google search trend to measure the public awareness on the topic of fatal police shootings. Google ranks the keyword searches by popularity out of a score of 100. As you can see, the popularity score for "fatal police shooting" spiked up to 100 in July of 2016. This means that during the month of July, “fatal police shooting” is the most popular search on google in the United States. 
 
+Notice that the popularity of “fatal police shooting” rarely drops below 10. News about fatal police shootings have always been circulating the internet. Whenever a news article become viral, people start to protest on the streets, and protests lead to more news coverage. So, “fatal police shooting” gradually snowballs in popularity, and the topic stays relevant throughout the past 5 years.
 
-### **Wyoming Might Be the Most Dangerous Place to Live?**
+However, contrary to the hopes of most protestors, public awareness of the issue doesn’t curtail the number of victims shot dead by the polices. By dragging your cursor over the two line graphs above, you can compare the google search popularity with shooting counts at different time stamps. Although “fatal police shooting” became the most popular google search in July of 2016, but the count of victims from fatal police shootings remained consistent throughout the past 5 years.
 
+<<<<<<< HEAD
+## -
+=======
 [ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/state-choropleth?cells=chart"width:"100%" height:"500"/]
+>>>>>>> b4415960d0d23a8c280cccfd05a594e627a94f53
 
-Police shootings have taken place all across the state and have occurred more frequently in States where populations are smaller less concentrated. Among the States, Wyoming has the highest fatal police shooting rate, about 10.58 people are killed by police shooting per million, followed by New Mexico (9.54 cases per million), Oklahoma (8.09 cases per million), Nevada (6.05 cases per million), and Louisiana (5.81 cases per million). While these numbers are huge comparing to the average fatal police shooting rate (3.27 cases per million) and median fatal police shooting rate (2.82 cases per million), the reasons remains unknown given limited information. Though it can be argued that the high fatal police shooting rate in these states is due to poor economy, their closeness to the boarder, and maybe less concentrated population, these claims cannot be proven. The reason lies behind remains murky using our current datasets.
+[div class: "h3"] 
+### Is Wyoming the most dangerous place to live?
+[/div]
 
+## -
 
-### **Racial Disparity in Fatal Police Shooting Keeps Increasing**
+[ObservableEmbed link:"https://observablehq.com/embed/@yuchens1/state-choropleth?cells=chart"width:"100%" height:"700"/]
 
-Non-Normalized
+Police shootings have taken place all across the country and **have occurred more frequently in the States where populations are less concentrated**. Among them, Wyoming has the highest fatal police shooting rate normalized by 1,000,000 people. Assuming there are a million Americans living in Wyoming, past data would make us believe that 10.58 people will be killed by a police during arrest. New Mexico is ranked second highest shooting rate with 9.54 deaths per million, Oklahoma third with 8.09 deaths per million, Nevada fourth with 6.05 deaths per million, and Louisiana fifth with 5.81 deaths per million. As a comparison, on average, each state in the United States has a rate of 3.27 deaths per million. Though we hypothesize that the high fatal police shooting rate in the top five states is due to poor economy and their closeness to the border. We do not have any evidence supporting these claims. We can, however, circle out the top five states that has more than double the average rate of fatal police shootings, and suggest local police departments spend time investigating the reason behind these statistics.
 
-[fullWidth]
+## -
+
+[div class: "h3"] 
+### Is racial disparity in fatal police shooting decreasing?
+[/div]
+
+## -
+
+[fullWidth style:`{width: "100%", margin: "0", padding: "0", top: "0", left: "0"}`] 
 [TableauEmbed link:"https://public.tableau.com/views/412_1/3?:language=en-US&:display_count=n&:origin=viz_share_link"width:"1500" height:"500"/]
 [/fullWidth]
 
-Normalized
+Grouped bar chart above shows the change in count of fatal police shootings for each race over the years. If you remember that earlier we claimed that the count of shootings were consistent between 2015-2019, you won’t be surprised to see that there are almost no differences for Asian,African American, Hispanic, and Native American victim counts over the years. However, what is surprising is the gradual decline in White non-Hispanic victim counts. The number of White victims over the years dropped from 497 cases in 2015 to 404 cases in 2019. This is almost a 20% decrease in size. Since White victims have always been the largest portion of all victims of fatal police shooting, does a drop in the White victim counts mean a decrease in the racial disparity of the victims of fatal police shooting? 
 [TableauEmbed link:"https://public.tableau.com/views/412_1/6?:language=en-US&:display_count=n&:origin=viz_share_link"width:"600" height:"600"/]
 
-There’s a decrease in fatal police shooting cases—-for white people. The number dropped from 497 cases in 2015 to 404 cases in 2019. However, there’s almost no change in fatal police shooting cases for Hispanic (change from 172 cases in 2015 to 163 cases in 2019), Black people (change from 258 cases in 2015 to 250 cases in 2019), and Asians (increase from 14 cases in 2015 to 19 cases in 2019). The gap keeps increasing. Normalized by total populations of these people in United States, we can see that Natives and Black people are killed at a disproportionately high rate by police shooting. In 2017, Natives are killed at an astounding 37 people per million, closely followed by Black people (33 people per million), followed by Hispanic (15 per million), White (13 per million), and Asians (5 per million).
+However, upon a closer examination of the demographic data of the United States, we notice that White people take up a much larger portion of the population than the Native Americans. Therefore, it makes sense that the raw count of White victims to fatal police shooting is much larger than the raw count of Native American victims. To make the comparison between races more meaningful, we normalize each race’s victim counts by the total population of that race in the United States. After plotting results from this normalization, we notice Native Americans are almost 3 times as likely to be shot by a police than Whites,  following close after is African Americans at 2.5 times the likelihood to be shot than Whites.
 
-### **Most of the Victims Are Adult Men**
+Therefore, is the steady decrease in White victim counts shown by the grouped bar charts really demonstrating a less racial disparity in fatal police shootings? Because the White population is so much larger than the Native Americans and the African Americans, a small decrease in victim count doesn’t translate to any significant decrease in normalized fatal police shooting rates by race.  
 
+## -
+
+[div class: "h3"] 
+### What are the demographic characteristics of the victims?
+[/div]
+
+## -
 [TableauEmbed link:"https://public.tableau.com/views/412_1/5?:language=en-US&:display_count=n&:origin=viz_share_link"width:"800" height:"300"/]
 
-People of all ages are being shot dead by police. The victims can be as young as 6 years old and can be as old as 86 years old. On average, around 70% of the victims are people that are aged 15-45. At the same time, over 95% of the victims are male and only less than 5% are female.
+People of all ages and genders are being shot dead by police. But victims are particularly likely to be male between the age of 15-45.
+
+Is this result surprising? We argue it is not surprising. Fatal police shootings usually begin because of a misjudgement of the threat level of the arrestee. Some times police shoot the victim multiple times because they are nervous at the scene. Male victims between the age of 15-45 have the physical characteristics to cause an uncertain fear to the police officers; therefore, they are the most likely group to be shot.
 
 [TableauEmbed link:"https://public.tableau.com/views/412_1/4?:language=en-US&:display_count=n&:origin=viz_share_link"width:"800" height:"500"/]
 
-### **Combined Factor**
+## -
 
+[div class: "h3"] 
+### Should we defund the police?
+[/div]
 
-### **Defunding the Police Might Not Be the Desired Solution**
+## -
 
-Defunding the police, in many people’s opinion is the best solution to this problem. It will indeed reduce fatal police shooting, but at a cost—as the police departments are defunded, there will be fewer policemen. Comes with fewer fatal police shooting, is increased crime rate. People are only look at times police make mistakes—when they successfully stop a crime from happening, people don’t know because media won’t bother spending time on reporting it since they think the police are just doing their jobs; but when they make a mistake, everybody knows. In fact, police are doing their jobs most of the time and they seldom make mistakes. But many people cannot see the whole picture, and they are forsaking their safety for these ‘fewer mistakes’.
+Defunding the police, in many people’s opinion is the best solution to this problem. It will hypothetically reduce fatal police shooting, but at what cost? Funding is necessary to keep a large number of policemen employeed. Fewer policemen should decrease the count of fatal police shootings, but would also increase crime rate and response time to crimes. Despite the occasional policemen who misjudge situations to pull the trigger, most policemen are employeed to maintain peace in the neighborhood. Media rarely reports the success of policing doesn't mean the police department has utterly failed. So, we claim that rushing to defund the police is an impulsive move that jeopardizes the safety of everyone in the neighborhood. 
 
 Imagine being a young lady, travelling back from work to home. But on the way back, a man appeared out of nowhere and robbed you, do you want to the police to show up in 2 minutes or show up in 15? Also imagine being a policeman. For 5 years you’ve been fulfilling your duty, never made a mistake, and your family count on you to put food on the table. However, in a bleak morning you got fired because the day before one of your many colleagues shot a person dead. Does it sound fair?
 
-What if instead of defunding the police, we use the funding differently? What if we put more money to educate the police more about gender, age, racial equality, and human rights? What if we include the implicit bias tests during the selection, so that people with hate will not be selected to be a policeman? There are more solutions out there. We need to examine them fully before advocating for one.
+But, we have already identified the fatal police shootings are racially charged and many times are results of misjudgements. What is a way to solve this issue without jeopardizing other people's safety? We believe police funding should be redirected towards programs that train policemen to follow the right protocol when dealing with perceived life threatening situations. Implicit bias tests on race and gender may be used during training procedures so that people with prejudice will not be selected into the policeman program? There are more solutions out there. This article is by no means claiming to have identified any well rounded solutions.
+
+This article aims to debunk the misconception that fatal police shootings are becoming more common over time, the racial disparity of the victims are becoming a much larger social problem, and we trust defund the police to be an be all and end all solution of the aforementioned issues. Please go over our visualizations to see for yourselves where we've gained our insights from.
 
 
 ### **Data Source**
