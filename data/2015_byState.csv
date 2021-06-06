@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+,state_id,total,pop,rate,,name
+=======
 ,state_id,total,pop,rate,,id
+>>>>>>> b4415960d0d23a8c280cccfd05a594e627a94f53
 1,AK,4,734002,5.449576432,,Alaska
 2,AL,17,4908620,3.463295183,,Alabama
 3,AR,5,3039000,1.645278052,,Arkansas
@@ -41,7 +45,11 @@
 40,RI,0,1056160,0,,Rhode Island
 41,SC,19,5210100,3.646763018,,South Carolina
 42,SD,3,903027,3.322159803,,South Dakota
+<<<<<<< HEAD
+43,TN,20,6897580,2.899567674,,Tennessee
+=======
 43,TN,20,6897580,2.899567674,,Tennesse
+>>>>>>> b4415960d0d23a8c280cccfd05a594e627a94f53
 44,TX,100,29472300,3.393016493,,Texas
 45,UT,10,3282120,3.046811207,,Utah
 46,VA,18,8626210,2.086663784,,Vermont
