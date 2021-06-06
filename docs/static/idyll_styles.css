@@ -734,3 +734,15 @@ h0 {
   font-size: 340px;
   font-weight: 800;
 }
+
+h3 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+
+.idyll-text-container {
+  max-width: 900px !important;
+  margin: 0 auto;
+}
