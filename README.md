@@ -1,4 +1,4 @@
-# CSE412 Final Project: Fatal Police Shooting (Idyll)
+# CSE412 Final Project Template (Idyll)
 
 ## IMPORTANT NOTE:
 **Planning of the final website is in file `rought draft.pdf` under directory docs.**
@@ -9,11 +9,11 @@ Tim Li, Chris Chen, Yuchen Sun
 
 ### Contribution Statements
 
-Tim Li worked on maintaining consistency on the Github repo as well as creating visualizations via Tableau.
+Tim Li worked on maintaining consistency on the Github repo, creating some visualizations via Tableau, and facilitating discussions.
 
-Chris Chen was responsible for arranging meetings as well as writing for most of the paragraphs.
+Chris Chen was responsible for writing the most of the narrative, creating some of the visualizations via Tableau, and arranging meetings.
 
-Yuchen Sun worked on designing the general layout of the website, creating the demo video and created most of the visualization via D3 and Vega-lite.
+Yuchen Sun worked on creating most of the visualization via D3 and Vega-lite, designing the general layout of the website, and recording the demo video.
 
 ## Project Proposal Abstract
 
