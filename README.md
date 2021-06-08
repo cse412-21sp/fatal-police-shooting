@@ -1,4 +1,4 @@
-# CSE412 Final Project Template (Idyll)
+# CSE412 Final Project: Fatal Police Shooting (Idyll)
 
 ## IMPORTANT NOTE:
 **Planning of the final website is in file `rought draft.pdf` under directory docs.**
