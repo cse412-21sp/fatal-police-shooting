@@ -9,11 +9,11 @@ Tim Li, Chris Chen, Yuchen Sun
 
 ### Contribution Statements
 
-Chris Chen is responsible for arranging meetings as well as writing for most of the paragraphs.
-
-Yuchen Sun worked on designing the general layout of the website created most of the visualization via D3 and Vega-lite.
-
 Tim Li worked on maintaining consistency on the Github repo as well as creating visualizations via Tableau.
+
+Chris Chen was responsible for arranging meetings as well as writing for most of the paragraphs.
+
+Yuchen Sun worked on designing the general layout of the website and created most of the visualization via D3 and Vega-lite.
 
 ## Project Proposal Abstract
 
