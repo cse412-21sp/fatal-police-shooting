@@ -13,7 +13,7 @@ Tim Li worked on maintaining consistency on the Github repo as well as creating 
 
 Chris Chen was responsible for arranging meetings as well as writing for most of the paragraphs.
 
-Yuchen Sun worked on designing the general layout of the website and created most of the visualization via D3 and Vega-lite.
+Yuchen Sun worked on designing the general layout of the website, creating the demo video and created most of the visualization via D3 and Vega-lite.
 
 ## Project Proposal Abstract
 
