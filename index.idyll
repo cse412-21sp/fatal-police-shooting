@@ -71,7 +71,7 @@ Sadly, stories like these happen more than twice a day on average for the past y
 
 ## -
 
-Stories are anecdotal evidences that are easily relatable and digestable. But in this article, we take a step back and use data to exmaine the bigger picture of fatal police shooting. This is a "visualized" article. Please see the [a href:'https://youtu.be/J-JQe9p5_9Q'] demo video[/a] at the end of the the webpage to learn how to most effectively use our visualizations.
+Stories are anecdotal evidences that are easily relatable and digestable. But in this article, we take a step back and use data to exmaine the bigger picture of fatal police shooting. This is a "visualized" article. Please see the [a href:'https://youtu.be/J-JQe9p5_9Q'] demo video[/a] to learn how to most effectively use our visualizations.
 
 But first things first, good visualizations are built from quality data. Our dataset comes from Kaggle, a data science community with more than 90,000 public datasets. The dataset recorded every fatal police shooting in the United States between 2015-2019. Each victim's name, date of shooting, age, gender, race, state, and 7 other variables are recorded. These shootings are tracked by culling local news reports, law enforcement websites, social media, and by monitoring independent databases such as Killed by Police and Fatal Encounters. Thus, overall we would say that the data integrity is very high and very usable for our task.
 
